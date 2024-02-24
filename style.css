@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo>img {
+    height: 49px;
+    width: 100px;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.links, ul{
+    list-style: none;
+    padding-left: 120px;
+}
+.links,a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    background-color: #000;
+    padding-left: 30px;
+}
+.links, li{
+    float: left;
+}
+.links,a:hover{
+    color: aqua;
+}
+.btn{
+    padding: 15px;
+    background-color: #000;
+}
+.btn>button{
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: rgba(174, 233, 37, 0.685);
+    cursor: pointer;
+}
+.part1{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+.image>img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+   
+}
+.text>h3{
+    font-size: 50px;
+    position: absolute;
+    bottom: 310px;
+    left: 230px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+    color: rgba(174, 233, 37, 0.966);
+}
+.text>p{
+    font-size: 20px;
+    position: absolute;
+    bottom: 250px;
+    left: 230px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+    color: #fff;
+}
+.btn1>button{
+    position: absolute;
+    bottom: 170px;
+    left:230px;
+    padding: 12px;
+    border: 1px solid white;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(41, 118, 235);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.part2{
+    background-color: lightgray;
+    overflow: hidden;
+}
+.cards{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.card1{
+    height: 50vh;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 2px;
+     box-shadow: 2px 1px rgb(198, 241, 132);
+     color: #000;
+}
+.card1>h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+}
+.card1>p{
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.card1>i{
+   padding-left: 125px;
+   color: rgb(73, 149, 248);
+   font-size: larger;
+   margin-top: 15px;
+   position: relative;
+   top: 13px;
+}
+.card2{
+    height: 50vh;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 1px rgb(182, 247, 85);
+    color: #000;
+}
+.card2>h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+}
+.card2>p{
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.card2>i{
+   padding-left: 125px;
+   color: rgb(73, 149, 248);
+   font-size: larger;
+   margin-top: 15px;
+   position: relative;
+   top: 13px;
+}
+.card3{
+    height: 50vh;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 1px rgb(182, 247, 85);
+    color: #000;
+}
+.card3>h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+}
+.card3>p{
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.card3>i{
+   padding-left: 125px;
+   color: rgb(73, 149, 248);
+   font-size: larger;
+   margin-top: 15px;
+   position: relative;
+   top: 13px;
+}
+.card1:hover{
+    background-color: rgba(174, 233, 37, 0.966);
+}
+.card2:hover{
+    background-color: rgba(174, 233, 37, 0.966);
+}
+.card3:hover{
+    background-color: rgba(174, 233, 37, 0.966);
+}
+.part3{
+    width: 100%;
+    height: 100vh;
+   background-color: #000;
+   overflow: hidden;
+}
+.part3>video{
+    height: auto;
+    width: 100%;
+}
+.part4{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+.part4>h2{
+    position: relative;
+    bottom: 500px;
+    font-size: 50px;
+    margin-left: 340px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellowgreen;
+    letter-spacing: 2px;
+}
+.part4>h4{
+    position: relative;
+    bottom: 460px;
+    font-size: 30px;
+    margin-left: 180px;
+    padding-top: 10px;
+    font-family: cursive;
+    color: rgb(62, 119, 241); 
+    letter-spacing: 2px;
+
+}
+.part4>h5{
+    position: relative;
+    bottom: 450px;
+    font-size: 17px;
+    margin-left: 130px;
+    color: #fff;
+}
+.part4>img{
+    height: auto;
+    width: 100%;
+    opacity: 0.7;
+    object-fit: cover;
+}
+.part4>button{
+    width: 120px;
+    position: relative;
+    bottom: 400px;
+    left: 620px;
+    padding: 10px;
+    border: 0px solid white;
+    color: #fff;
+    font-size: large;
+    border-radius: 10px;
+    background-color: rgb(77, 152, 250);
+    cursor: pointer;
+}
+.part5{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+.pt1{
+    position: relative;
+    top: 30%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pt1>h3{
+    text-align: center;
+}
+.pt1>p{
+    font-size: small;
+}
+.pt1>i{
+    font-size: larger;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.pt2{
+    width: 60%;
+    height: 60vh;
+}
+.form{
+    position: relative;
+    width: 60%;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form,.name{
+    padding: 15px;
+    width: 20vw;
+    position: relative;
+    bottom: 110px;
+    right: 245px;
+}
+.form,.email{
+    padding: 15px;
+    width: 20vw;
+    position: relative;
+    left: 80px;
+    bottom: 158px;
+}
+.form,.subject{
+    padding: 15px;
+    width: 44vw;
+    position: relative;
+    right: 80px;
+    bottom: 145px;  
+}
+.form, .message{
+    padding: 65px;
+    width: 44vw;
+    position: relative;
+    right: 80px;
+    bottom: 125px;
+}
+.form>button{
+    width: 30%;
+    padding: 15px;
+    border: 1px solid bla;
+    border-radius: 10px;
+    background-color: aqua;
+    color: #000;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: relative;
+    bottom: 105px;
+    right: 70px;
+}
